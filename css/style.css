@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* * NAVIGATION */
+.bg-light{
+    background-color: #fff !important; 
+}
+.navbar .container .navbar-brand{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin: 2px;
+}
+.navbar-brand a{
+    text-decoration: none;
+    color: #5fcf80;
+}
+.nav-btn{
+    text-decoration: none;
+    background-color: #5fcf80;
+    color: #fff;
+    border-radius: 100px;
+    padding: .4rem 1.3rem;
+    margin-left: 0.5rem;
+    transition: all .3s;
+    display: inline-block;
+}
+.nav-btn:hover{
+    background-color: rgba(0, 128, 0, 0.699);
+    color: #fff !important;
+}
+.collapse .navbar-nav .nav-item a:hover{
+    color: #5fcf80;
+}
+.collapse .navbar-nav .nav-item .active{
+    color: #5fcf80;
+}
+/* * HERO SECTION */
+#hero-section{
+    width: 100%;
+    height: 80vh;
+    background-image: url('../img/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 80px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+    position: relative;
+}
+.hero-content h1{
+    font-size: 3.5rem;
+}
+.hero-content p{
+    font-size: 1.4rem;
+}
+.hero-btn{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    width: fit-content;
+    padding: 0.4rem 1.7rem;
+    border-radius: 100px;
+    transition: all 0.3s;
+}
+.hero-btn:hover{
+    color: #fff;
+    background-color: #5fcf80;
+    border-color: #5fcf80;
+}
+.dark-bg{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+/* * ABOUT SECTION */
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* * NUMBERS SECTION */
+#numbers-section{
+    background-color: #f6f7f6;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#numbers-section h1{
+    font-size: 3rem;
+    color: #5fcf80;
+}
+/* * WHY US SECTION */
+#why-us-section .section-description{
+    background-color: #5fcf80;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 4px;
+}
+#why-us-section .section-btn{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.116);
+    padding: .5rem 1.2rem;
+    border-radius: 100px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+.why-us-cards .section-card{
+    border: 1px solid rgb(218, 218, 218);
+    padding: 1.5rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.why-us-cards .section-card:last-child{
+    margin-right: 0px;
+}
+.why-us-cards .section-card .icon{
+    background-color: #5fcf811c;
+    padding: 1rem;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5fcf80;
+    border-radius: 100px;
+}
+.why-us-cards{
+    display: flex;
+    align-items: center;
+}
+/* * SERVICES SECTION */
+.service-btn{
+    color: black;
+    text-decoration: none;
+    border: 1px solid rgb(192, 192, 192);
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+.service-btn:hover{
+    color: #5fcf80;
+    border-color: #5fcf80;
+}
+/* * COURSES SECTION */
+.section-subtitle .line{
+    height: 1px;
+    width: 130px;
+    background-color: #5fcf80;
+    margin-left: 1rem;
+}
+.section-subtitle{
+    display: flex;
+    align-items: center;
+}
+.section-subtitle span{
+    color: grey;
+    letter-spacing: 2px;
+    font-size: .9rem;
+}
+
+.course-card{
+    border: 1px solid rgb(224, 224, 224);
+}
+.card-content{
+    padding: 1rem;
+}
+.card-tag{
+    background-color: #5fcf80;
+    color: #fff;
+    padding: .1rem .3rem;
+    font-size: .85rem;
+}
+.card-content p{
+    color: grey;
+}
+
+.course-author img{
+    width: 50px;
+    border-radius: 100px;
+}
+.course-author{
+    border-top: 1px solid rgb(224, 224, 224);
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+/* * TEAM SECTION */
+.team-card{
+    border: 1px solid rgb(224, 224, 224);
+}
+.team-card-content{
+    padding: 2rem;
+    text-align: center;
+}
+.team-card-content i{
+    display: block;
+}
+.team-card-content .description{
+    color: grey;
+}
+.team-card-content strong{
+    color: grey;
+}
+/* * FOOTER */
+footer h3{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+footer p{
+    margin-bottom: 0px;
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+footer a:hover{
+    color: #5fcf80;
+}
+footer ul{
+    list-style-type: none;
+    padding: 0px;
+}
+footer ul li{
+    margin-bottom: .4rem;
+}
+footer{
+    background-color: #f9faf9;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.newsletter-field{
+    position: relative;
+}
+.newsletter-field input{
+    height: 36px;
+    width: 16rem;
+    border-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.247);
+    
+}
+.newsletter-field button{
+    border-radius: 20px;
+    background-color: #5fcf80;
+    color: #fff;
+    border: #5fcf80;
+    height: 36px;
+    width: 6rem;
+    padding: 4px;
+    padding-bottom: 15px;
+    position: absolute;
+    left: 220px;
+    transition: all .3s;
+}
+.newsletter-field button:hover{
+    background-color: rgba(0, 128, 0, 0.699);
+}
+#copyright{
+    background-color: #eef0ef;
+}
+#copyright p a{
+    text-decoration: none;
+    color: #5fcf80;
+
+}
+#copyright .social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; 
+}
+#copyright .social-icons a{
+    background-color: #5fcf80;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    border-radius: 100px;
+    margin: 4px;
+    position: relative;
+    transition: all .3s;
+}
+#copyright .social-icons a svg{
+    position: absolute;
+    top: 10px;
+    left: 9.5px;
+}
+#copyright .social-icons a:hover{
+    background-color: rgba(0, 128, 0, 0.699);
+}
+/* * RESPONSIVE * */
+
+/* * PHONES */
+@media (max-width:575.98px) {
+    .why-us-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .why-us-cards .section-card{
+        margin: .5rem 0px;
+    }
+    #about-section img{
+        margin-top: 1rem;
+    }
+}
+/* * TABLETS */
+@media (mix-width: 576px) and (max-width: 767.98px) {
+}
+/* * IPAD */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .section-description{
+        margin-bottom: 1rem;
+    }
+    #hero-section{
+        height: 50vh;
+    }
+}
+/* * IPAD PRO */
+@media (min-width: 992px) and (max-width: 1199.98) {
+    #hero-section{
+        height: 50vh;
+    }
+}
+/* * COMPUTERS AND LAPTOPS */
+@media (mix-width: 1200px) and (max-width: 3000px) {
+}
